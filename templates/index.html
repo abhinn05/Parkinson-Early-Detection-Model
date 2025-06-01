@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Parkinson's Detection App</title>
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🧠 Parkinson's Detection App</h1>
+
+    <div class="input-section">
+      <label>Name:</label>
+      <input type="text" id="name" placeholder="Enter Patient Name">
+
+      <label>Age:</label>
+      <input type="number" id="age" placeholder="Enter Patient Age">
+
+      <div class="actions">
+        <button id="record-btn">🎙 Record & Predict</button>
+        <p id="status"></p>
+      </div>
+    </div>
+
+    <div class="results" id="results" hidden>
+      <h2>📝 Results</h2>
+      <ul id="output-list"></ul>
+    </div>
+
+    <!-- Add this inside .container -->
+    <h2>🎥 Live Video Feed</h2>
+    <img id="live-video" src="http://localhost:5000/video_feed" width="100%" style="border-radius: 8px; margin-bottom: 20px;">
+
+  </div>
+
+  <script src="/static/script.js"></script>
+</body>
+</html>

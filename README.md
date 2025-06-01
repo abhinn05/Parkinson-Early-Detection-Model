@@ -87,8 +87,9 @@ The repository includes pre-trained models stored in the `/models` directory. Th
 ## 📈 Example Input & Output
 
 **Input:**
-- 10-second webcam video
+- User's Name
 - User's age
+- 60-second webcam video
 
 **Output:**
 ```json

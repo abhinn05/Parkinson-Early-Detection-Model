@@ -22,10 +22,10 @@ An AI-powered, multimodal early detection system for Parkinson's Disease using v
            +-----------+       +------------+       +-------------+
 Audio ---> | Voice Model|----> |            |       |             |
            +-----------+       |            |       |             |
-                                | Fusion &   |-----> |  Final      |
+                               |  Fusion &  |-----> |   Final     |
 Video ---> | Blink Model|----> | Prediction |       | Prediction  |
            +-----------+       |            |       |             |
-                                +------------+       +-------------+
+                               +------------+       +-------------+
 Age -----> | Age Model |----> 
            +-----------+
 ```
